@@ -1,0 +1,354 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.image{
+    margin-top: 12px;
+    margin-left: 32px;
+}
+button{
+ color: white;
+ margin-right: 43px;
+ height: 43px;
+ width: 154px;
+ font-family: Silka webfont, sans-serif;
+font-size: 16px;
+font-weight: 500;
+ border-radius: 50px;
+ background-color:#00a6cb;
+ border: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.navbar li{
+    
+    list-style: none;
+    display: inline-block;
+     margin: 12px 29px;
+}
+.navbar li a{
+    font-family: Silka webfont, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #222;
+    text-decoration: none;
+}
+.fa-solid{
+    color: #00a6cb;
+    margin-left: 5px;
+    font-size: 14px;
+}
+.container{
+    position: relative;
+    background-color:#bce2f1;
+    height: 85vh;
+}
+.container-img{
+    padding-left: 19px;
+}
+.container-img1{
+    position: absolute;
+    top: 203px;
+    left: -129px;
+}
+.container-img2{
+    position: absolute;
+    top:259px;
+    left:464px;
+}
+.container-img3{
+    position: absolute;
+    top:109px;
+    left:817px;
+}
+.container-img4{
+    position: absolute;
+    left:815px;
+    top:7px;
+}
+.container h1{
+    position: absolute;
+    top:43px;
+    left:284px;
+    font-family: Silka webfont, sans-serif;
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 72px;
+}
+input{
+   
+    width: 50%;
+    border-radius: 50px;
+    height: 8ch;
+    border: none;
+}
+.search{
+    position: absolute;
+    top:273px;
+}
+.search::placeholder{
+    padding-left: 49px;
+    color: #333;
+    font-size: 17.5px;
+}
+
+.first-icon{
+    position: relative;
+    top:1px;
+    left:12px;
+    font-size: 29px;
+    color: black;
+ }
+ .second-icon{
+    position: relative;
+    font-size: 35px;
+    top:6px;    
+    left:543px;
+ }
+ .sign-in-text{
+    position: relative;
+    text-align: center;
+    margin-top: 23px;
+ }
+ .sign-in-text a{
+    color: black;
+ }
+ .content{
+    margin-top: 63px;
+ }
+ .content h2{
+    margin-top: -314px;
+    text-align: left;
+    width: 100%;
+    max-width: 300px;
+    margin-left: 15%;
+    font-size: 45px;
+    line-height: 55px;
+    color:#18303a;
+    font-family: Silka webfont, sans-serif;
+    font-weight: 500;
+ }
+ .content p{
+    margin-top: -19px;
+    width: 100%;
+    max-width: 400px;
+    margin-left: 15%;
+    color:#424242;
+    font-family: Silka webfont, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    opacity: .8;
+ }
+ .text-wrap-img {
+  margin-left: 57%;
+  border-radius: 20px;
+ }
+ .content1{
+    margin-top: 69px;
+ }
+ .text-wrap-img1{
+    margin-top: 29px;
+    margin-left: 15%;
+    border-radius: 20px;
+ }
+ .content1 h2{
+    font-size: 45px;
+    width: 100%;
+    max-width: 300px;
+    line-height: 55px;
+    font-family: Silka webfont, sans-serif;
+    font-weight: 500;
+    color:#18303a;
+    margin-left: 53%;
+    margin-top: -400px;
+ }
+ .content1 p{
+    margin-top: -19px;
+    width: 100%;
+    max-width: 400px;
+    color:#18303ab3;
+    opacity: .8;
+    font-family: Silka webfont, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 53%;
+}
+.content2{
+    margin-top: 63px;
+}
+
+.content2 h2{
+    margin-top: -414px;
+    width: 100%;
+    max-width: 300px;
+    margin-left: 15%;
+    font-size: 45px;
+    line-height: 55px;
+    color:#18303a;
+    font-family: Silka webfont, sans-serif;
+    font-weight: 500;
+}
+.content2 p{
+    margin-top: -19px;
+    width: 100%;
+    max-width: 350px;
+    margin-left: 15%;
+    color:#424242;
+    font-family: Silka webfont, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    opacity: .8;
+}
+.text-wrap-img2 {
+    margin-top: 63px;
+    margin-left: 57%;
+  border-radius: 20px;
+}
+.content3{
+    margin-top: 63px;
+}
+.text-wrap-img3{
+    margin-top: 29px;
+    margin-left: 15%;
+    border-radius: 20px;
+ }
+ .content3 h2{
+    font-size: 45px;
+    width: 100%;
+    max-width: 300px;
+    line-height: 55px;
+    font-family: Silka webfont, sans-serif;
+    font-weight: 500;
+    color:#18303a;
+    margin-left: 53%;
+    margin-top: -360px;
+ }
+ .content3 p{
+    margin-top: -19px;
+    width: 100%;
+    max-width: 400px;
+    color:#18303ab3;
+    opacity: .8;
+    font-family: Silka webfont, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 53%;
+}
+.section-tall{
+    margin-top: 89px;
+    background-color: #fbf8f1;
+    height: 100vh;
+}
+.section-container h4{
+  padding-top: 39px;
+  text-align: center;
+  font-family: Silka webfont, sans-serif;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 45px;
+}
+.section-container a{
+    position: relative;
+    top: -29px;
+   padding-left: 46%;
+   text-decoration: none;
+   font-size: 19px;
+   font-weight: 500;
+   color:#00a6cb ;
+   font-family: Silka webfont, sans-serif;
+}
+.frist-solid{
+    font-size: 15px;
+}
+.sectionimg-line1 img{
+   border-radius: 10px;
+    margin-left: 12px;
+}
+.sectionimg-line1{
+    padding-left: 109px;
+}
+.sectionimg-line2 img{
+    border-radius: 10px;
+    margin-left: 12px;
+}
+.sectionimg-line2{
+    padding-top: 12px;
+    padding-left: 109px;
+}
+.padding-gobal{
+    background-color:#c8f3fc;
+    height: 10vh;
+    position: sticky;
+    bottom: 0;
+}
+.padding-gobal img{
+   margin-left: 46%;
+   margin-top: 10px;
+}
+.global-icon {
+     position: relative;
+     top:-29px;
+     font-size: 15px;
+    padding-left:94%;
+    color: #222;
+  }
+.padding-gobal p{
+    font-family: Silka webfont, sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    margin-left: 50%;
+    margin-top: -35px;
+   color: #18303a;
+}
+.footer{
+    background-color:#ffffff;
+    color:#333 ;
+    padding:86px 3%;
+    font-family: Silka webfont, sans-serif;
+}
+.container-2{
+   display: flex;
+   justify-content: space-between;
+   align-items: start;
+}
+.flooter-column{
+    flex: 1;
+    margin: 0 20px;
+}
+.flooter-title{
+    color: #18303a;
+    margin-bottom: 22px;
+    font-family: Silka webfont, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+}
+.flooter-link a{
+    color: #8e929b;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Silka webfont, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    text-decoration: none;
+    display: block;
+}
+.footer-wrapper{
+    opacity: .5;
+    margin-top: -56px;
+    padding-left: 67px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #333;
+    font-family: Silka webfont, sans-serif;
+}
